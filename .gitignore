@@ -1,0 +1,27 @@
+
+# Python / data
+__pycache__/
+*.pyc
+.env
+.env.*
+.venv/
+.envrc
+.DS_Store
+*.ipynb_checkpoints
+outputs/
+runs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.wav
+*.mp3
+*.zip
+
+# Colab cache
+sample_data/
+
+# RVC / TTS caches
+hub/
+.cache/

@@ -1,0 +1,17 @@
+# XTTS v2 fine-tuning (example skeleton)
+# You will edit paths after you upload data in Colab.
+trainer:
+  logger: tensorboard
+  max_epochs: 10
+  precision: 16
+  devices: 1
+model:
+  name: "tts_models/multilingual/multi-dataset/xtts_v2"
+data:
+  # CSV with columns: 'audio_path','text'
+  training_files: "/content/datasets/train.csv"
+  validation_files: "/content/datasets/val.csv"
+  sample_rate: 22050
+optim:
+  lr: 2e-5
+  weight_decay: 0.01

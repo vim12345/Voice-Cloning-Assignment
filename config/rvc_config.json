@@ -1,0 +1,9 @@
+{
+  "sr": 48000,
+  "model_name": "rvc_speaker",
+  "epochs": 100,
+  "batch_size": 8,
+  "f0_method": "rmvpe",
+  "train_data_dir": "/content/datasets/wavs",
+  "infer_pitch_shift": 0
+}

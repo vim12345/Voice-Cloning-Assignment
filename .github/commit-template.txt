@@ -1,0 +1,11 @@
+# Commit Message Guidelines
+#
+# Use the following format for commits:
+#
+# [Category] Short description
+#
+# Example:
+# [Fix] Corrected data preprocessing bug
+# [Docs] Updated README with Colab instructions
+#
+# Categories: Fix, Docs, Feature, Chore, Refactor, Test
