@@ -31,6 +31,7 @@ jobs:
       run: flake8 .
 
     - name: Upload reports and logs
+      if: always()
       uses: actions/upload-artifact@v3
       with:
         name: logs-and-reports
@@ -38,3 +39,4 @@ jobs:
           reports/templates/*.md
           outputs/samples/*.wav
           logs/
+        if-no-files-found: ignore
